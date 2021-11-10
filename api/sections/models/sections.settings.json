@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "sections",
   "info": {
-    "name": "Sections",
+    "name": "Adsenses",
     "description": ""
   },
   "options": {
@@ -15,41 +15,30 @@
     "name": {
       "type": "string"
     },
-    "code": {
-      "type": "richtext"
-    },
-    "image": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
-    },
     "slug": {
       "type": "uid",
       "targetField": "name"
     },
-    "SEO": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.seo"
+    "From": {
+      "type": "date"
     },
-    "categories": {
-      "via": "sections",
-      "collection": "categories"
+    "To": {
+      "type": "date"
     },
-    "type": {
-      "via": "components",
-      "model": "type"
+    "slots": {
+      "collection": "type",
+      "via": "adsenses",
+      "dominant": true
     },
-    "framework": {
-      "via": "components",
-      "model": "frameworks"
+    "href": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "website": {
+      "collection": "website",
+      "via": "adsenses"
     }
   }
 }

@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "types",
   "info": {
-    "name": "Type",
+    "name": "Slots",
     "description": ""
   },
   "options": {
@@ -19,14 +19,9 @@
       "type": "uid",
       "targetField": "name"
     },
-    "components": {
-      "collection": "sections",
-      "via": "type"
-    },
-    "SEO": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.seo"
+    "adsenses": {
+      "via": "slots",
+      "collection": "sections"
     }
   }
 }

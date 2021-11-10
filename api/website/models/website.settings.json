@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "categories",
+  "collectionName": "websites",
   "info": {
-    "name": "Categories",
-    "description": ""
+    "name": "Website"
   },
   "options": {
     "increments": true,
@@ -15,17 +14,12 @@
     "name": {
       "type": "string"
     },
-    "slug": {
+    "url": {
       "type": "string"
     },
-    "SEO": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.seo"
-    },
-    "sections": {
+    "adsenses": {
+      "via": "website",
       "collection": "sections",
-      "via": "categories",
       "dominant": true
     }
   }

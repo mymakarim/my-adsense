@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/types",
-      "handler": "type.find",
+      "path": "/slots",
+      "handler": "slots.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/types/count",
-      "handler": "type.count",
+      "path": "/slots/count",
+      "handler": "slots.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/types/:id",
-      "handler": "type.findOne",
+      "path": "/slots/:id",
+      "handler": "slots.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/types",
-      "handler": "type.create",
+      "path": "/slots",
+      "handler": "slots.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/types/:id",
-      "handler": "type.update",
+      "path": "/slots/:id",
+      "handler": "slots.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/types/:id",
-      "handler": "type.delete",
+      "path": "/slots/:id",
+      "handler": "slots.delete",
       "config": {
         "policies": []
       }

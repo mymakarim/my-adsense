@@ -32,6 +32,10 @@
   "strapi": {
     "uuid": "6b6e9e67-63b4-45d0-a85e-d1731ca017f7"
   },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": "^6.0.0"
+  },
   "license": "MIT",
   "optionalDependencies": {
     "fsevents": "^2.3.2"

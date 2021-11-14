@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "websites",
   "info": {
-    "name": "Websites"
+    "name": "websites"
   },
   "options": {
     "increments": true,
@@ -13,14 +13,6 @@
   "attributes": {
     "name": {
       "type": "string"
-    },
-    "url": {
-      "type": "string"
-    },
-    "slots": {
-      "via": "websites",
-      "collection": "slots",
-      "dominant": true
     }
   }
 }

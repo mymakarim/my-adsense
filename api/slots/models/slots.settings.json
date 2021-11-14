@@ -2,8 +2,7 @@
   "kind": "collectionType",
   "collectionName": "slots",
   "info": {
-    "name": "Slots",
-    "description": ""
+    "name": "slots"
   },
   "options": {
     "increments": true,
@@ -14,15 +13,6 @@
   "attributes": {
     "name": {
       "type": "string"
-    },
-    "slug": {
-      "type": "uid",
-      "targetField": "name"
-    },
-    "websites": {
-      "via": "slots",
-      "collection": "websites",
-      "dominant": true
     }
   }
 }

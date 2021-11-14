@@ -2,7 +2,8 @@
   "collectionName": "components_places_places",
   "info": {
     "name": "Places",
-    "icon": "ad"
+    "icon": "ad",
+    "description": ""
   },
   "options": {},
   "attributes": {

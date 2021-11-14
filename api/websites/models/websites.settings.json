@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "types",
+  "collectionName": "websites",
   "info": {
-    "name": "Slots",
-    "description": ""
+    "name": "Websites"
   },
   "options": {
     "increments": true,
@@ -15,13 +14,13 @@
     "name": {
       "type": "string"
     },
-    "slug": {
-      "type": "uid",
-      "targetField": "name"
+    "url": {
+      "type": "string"
     },
-    "adsenses": {
-      "via": "slots",
-      "collection": "sections"
+    "slots": {
+      "via": "websites",
+      "collection": "slots",
+      "dominant": true
     }
   }
 }

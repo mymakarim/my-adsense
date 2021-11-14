@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_places_places",
+  "info": {
+    "name": "Places",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "from": {
+      "type": "datetime"
+    },
+    "to": {
+      "type": "datetime"
+    },
+    "website": {
+      "model": "websites"
+    },
+    "slots": {
+      "collection": "slots"
+    }
+  }
+}

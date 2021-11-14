@@ -19,11 +19,6 @@
       "type": "uid",
       "targetField": "name"
     },
-    "active": {
-      "type": "boolean",
-      "default": true,
-      "required": true
-    },
     "Image": {
       "model": "file",
       "via": "related",
@@ -34,10 +29,10 @@
       "required": true,
       "pluginOptions": {}
     },
-    "Places": {
-      "type": "component",
-      "repeatable": true,
-      "component": "places.places"
+    "websites": {
+      "via": "ads",
+      "collection": "websites",
+      "dominant": true
     }
   }
 }

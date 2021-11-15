@@ -33,6 +33,11 @@
       "via": "ads",
       "collection": "websites",
       "dominant": true
+    },
+    "places": {
+      "type": "component",
+      "repeatable": true,
+      "component": "places.places"
     }
   }
 }

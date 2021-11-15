@@ -18,9 +18,6 @@
     "ads": {
       "via": "websites",
       "collection": "ads"
-    },
-    "slots": {
-      "collection": "slots"
     }
   }
 }

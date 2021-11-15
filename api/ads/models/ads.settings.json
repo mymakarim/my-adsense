@@ -13,11 +13,17 @@
   "pluginOptions": {},
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "slug": {
       "type": "uid",
-      "targetField": "name"
+      "targetField": "name",
+      "required": true
+    },
+    "href": {
+      "type": "string",
+      "required": true
     },
     "Image": {
       "model": "file",
@@ -32,12 +38,14 @@
     "websites": {
       "via": "ads",
       "collection": "websites",
-      "dominant": true
+      "dominant": true,
+      "required": true
     },
     "places": {
       "type": "component",
       "repeatable": true,
-      "component": "places.places"
+      "component": "places.places",
+      "required": true
     }
   }
 }

@@ -8,10 +8,10 @@
   "options": {},
   "attributes": {
     "from": {
-      "type": "datetime"
+      "type": "date"
     },
     "to": {
-      "type": "datetime"
+      "type": "date"
     },
     "website": {
       "model": "websites"

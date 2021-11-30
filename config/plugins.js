@@ -13,7 +13,7 @@ module.exports = () => {
     //   },
     // },
     upload: {
-      provider: "iapadmin",
+      provider: "cloudinary",
       providerOptions: {
         cloud_name: "iapadmin",
         api_key: "965715939991726",

@@ -1,3 +1,7 @@
 module.exports = ({ env }) => ({
-  url: env("https://componentity-ads.herokuapp.com/"),
+  proxy: true,
+  url: env("MY_HEROKU_URL"),
+  app: {
+    keys: env.array("APP_KEYS"),
+  },
 });
